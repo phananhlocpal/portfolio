@@ -15,8 +15,8 @@ const Navbar: React.FC<{}> = () => {
           <Image
             src="/LocPhan.png"
             alt="Phan Anh Loc - Software Engineer"
-            width={40}
-            height={40}
+            width={30}
+            height={30}
             sizes="40vw"
             className="w-full h-auto"
           />

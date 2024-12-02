@@ -6,7 +6,7 @@ import Image from "next/image";
 const Banner: React.FC<{}> = () => {
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/Loc_Phan_Anh_CV"; 
+    link.href = "/Loc_Phan_Anh_CV.pdf"; 
     link.download = "Loc_Phan_Anh_CV.pdf"; 
     link.click();
   };
